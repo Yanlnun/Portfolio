@@ -4,7 +4,7 @@
 
 <br>
 
-## [click here](bit.ly/3SOygg3)
+## [click here](https://bit.ly/3SOygg3)
 <br><br>
 or
 
