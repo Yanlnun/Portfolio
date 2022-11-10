@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Noto+Sans+KR:wght@100;300;400;700&family=Righteous&display=swap');
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Montserrat', 'Noto Snas KR', sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.inner {
+  width: 1280px;
+  min-width: 1280px;
+  position: relative;
+  margin: 0 auto;
+}
+
+section {
+  overflow: hidden;
+}
+
+.fa-html5 {
+  color: #E6612C;
+}
+
+.fa-css3-alt {
+  color: #2DA1D1;
+}
+
+.fa-square-js {
+  color: #E5B526;
+}
+
+.fa-bootstrap {
+  color: #7611EF;
+}
+
+/* ============================================================= */
+
+
+body {
+  background-image: url('../images/main_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sec0 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.profile .photo {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 0.5px #fff;
+  border-width: 5px;
+  border-style: double;
+
+  background: url('../images/logo.jpg') no-repeat center gray;
+  background-size: 100px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  filter: grayscale(100%);
+  transform: rotate(-10deg);
+}
+
+
+
+.profile h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.profile h2 strong {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.profile p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #eee;
+}
+
+.profile p strong {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.profile p i {
+  color: red;
+}
+
+.profile p:nth-child(5) {
+  margin-top: 20px;
+}
+
+.contact {
+  width: 200px;
+
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.contact a {
+  float: left;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin-right: 20px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  transition: 0.6s all;
+}
+
+.contact a i {
+  transition: 0.6s all;
+}
+
+.contact a:last-child {
+  margin-right: 0;
+}
+
+.contact a:hover {
+  border-color: yellow;
+}
+
+.contact a:hover i {
+  color: yellow;
+}
+
+.contact a i {
+  font-size: 26px;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  line-height: 45px;
+}
+
+
+
+
+.sec1 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+/* =============================================================== */
+.swiper {
+  width: 300px;
+  height: 30px;
+  position: relative;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 20px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper .swiper-slide {
+  text-shadow: 0px 0px 5px black;
+}
+
+
+.pf_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.s1 .pf_bg {
+  background: url('../images/makeup.jpg') rgba(0, 0, 0, 0.5);
+}
+
+.s2 .pf_bg {
+  background-image: url('../images/chair.jpg');
+}
+
+.s3 {
+  background-color: #ffafd8;
+}
+
+.s4 {
+  background-color: #afffba;
+}
+
+
+/* =============================================================== */
+
+
+
+.pf_gal {
+  width: 100%;
+  height: 100%;
+}
+
+.pf_gal .pf_bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pf__ {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.pf__ img {
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+  margin-top: 350px;
+  transition: all 0.6s;
+
+}
+
+.s2 .pf__>img {
+  object-fit: contain;
+  width: 80%;
+  height: 70px;
+  margin-top: 380px;
+}
+
+.pf__ p i {
+  font-size: 46px;
+  margin-right: 10px;
+}
+
+.pf__ p>i:last-child {
+  margin-right: 0;
+}
+
+.pf__ span {
+  color: #eee;
+  font-weight: bold;
+  text-align: right;
+  display: block;
+  width: 100%;
+  padding-right: 30px;
+  transition: all 0.6s;
+
+}
+
+.pf_hov {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 350px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.6s;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.swiper-slide .pf_hov img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: 30px auto;
+
+
+}
+
+.swiper-slide .pf_hov a {
+  font-size: 16px;
+  display: block;
+  color: #eee;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.swiper-slide .pf_hov a:hover {
+  background-color: black;
+  color: rgb(30, 245, 191);
+  border-color: rgb(30, 245, 191);
+}
+
+
+.pf__:hover .pf_hov {
+  opacity: 1;
+  visibility: visible;
+}
+
+.pf__:hover .pf_logo,
+.pf__:hover span {
+  transform: scale(3);
+}
+
+.pf__:hover .pf_bg {
+  filter: blur(5px);
+}
+
+
+
+
+
+
+
+
+
+
+/* =============================================================== */
+
+
+.sec2{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.sec2 .sec2_bg{
+  position: absolute;
+  top: 0;left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+  
+.beehive{
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  position: relative;
+  margin: 0 auto;
+  height: 600px;
+}
+
+.bee_box{
+  float: left;
+  width: 600px;
+}
+
+
+.row:nth-Child(odd) {
+  position: relative;
+  margin-left: 76.5px;
+  margin-bottom: -35px;
+}
+.row:nth-Child(even) {
+  margin-bottom: -35px;
+}
+.test-shape {
+  display: inline-block;
+  width: 150px; 
+  height: 150px;
+  background-color: rgba(243, 228, 13, 0.575);
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: .2s;
+  position: relative;
+}
+
+
+
+.test-shape p{
+ width: 120%;
+ height: 60px;
+ line-height: 60px;
+ text-align: center;
+  opacity: 0;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(190, 189, 189, 0.74);
+  font-weight: bold;
+}
+
+.test-shape img{
+  display: block;
+  width: 90px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 45px;
+  object-fit: contain;
+  margin-bottom: -20px;
+}
+.hn_bee{
+  opacity: 1;
+  visibility: hidden;
+  transition: none;
+}
+
+.left_beeh{
+  margin-left: -100px;
+  margin-top: 100px;
+}
+.right_beeh{
+  margin-left: 150px;
+}
+.right_beeh .test-shape:hover {
+  background: rgb(143, 134, 9);
+  transform: rotate(10deg) scale(1.2);
+
+}
+.right_beeh .test-shape:hover p{
+  opacity: 1;
+  transform: translate(-50%,-50%) rotate(-10deg) ;
+
+}
+.left_beeh .test-shape:hover p{
+  opacity: 1;
+  transform: translate(-50%,-50%) rotate(10deg);
+
+}
+
+.left_beeh .test-shape:hover {
+  background: rgb(143, 134, 9);
+  transform: rotate(-10deg) scale(1.2);
+}
+
+.sec2 h2{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  color: rgba(190, 189, 189, 0.555);
+  font-size: 200px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-family: 'Righteous', cursive;
+  bottom: 250px;
+  left: 100px;;
+}
+
+
+
+
+/* =============================================================== */
+
+.ft_wrap{
+  height: 150px;
+  min-height: 150px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.ft_wrap .copy{
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  line-height: 150px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+/* =============================================================== */
+
+
+#load{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 1);
+  animation: hide 3s forwards;
+}
+
+.profile .contact a,
+.profile .swiper,
+.profile p,
+.profile h2{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.profile .contact {
+  position: relative;
+}
+.profile .contact a{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-55%);
+}
+
+
+.profile h2,
+.profile p{
+  opacity: 1;
+  visibility: visible;
+}
+
+.profile h2 strong{
+  animation: show 4s forwards;
+}
+.profile p strong{
+  animation: show 4.5s forwards;
+}
+.profile p i{
+  animation: show 5s forwards;
+}
+.profile .swiper {
+  animation: show 5.5s forwards;
+}
+
+.profile .contact .link_mail{
+  animation: con_link1 6s forwards;
+}
+.profile .contact .link_git{
+  animation: con_link2 6s forwards;
+}
+.profile .contact .link_inst{
+  animation: con_link3 6s forwards;
+}
+
+@keyframes hide{
+  0%{opacity: 1;}
+  60%{opacity: 1;}
+  100%{opacity: 0;display: none;}
+}
+
+@keyframes show{
+  0%{opacity: 0;}
+  60%{opacity: 0;}
+  100%{opacity: 1; visibility: visible;}
+}
+
+
+@keyframes con_link1{
+  0%{transform: translateX(-55%);opacity: 0;}
+  60%{transform: translateX(-55%);opacity: 0;}
+  100%{transform: translateX(-200%);opacity: 1; visibility: visible;}
+}
+@keyframes con_link2{
+  0%{transform: translateX(-55%);opacity: 0;}
+  60%{transform: translateX(-55%);opacity: 0;}
+  100%{transform: translateX(-55%);opacity: 1; visibility: visible;}
+}
+@keyframes con_link3{
+  0%{transform: translateX(-55%);opacity: 0;}
+  60%{transform: translateX(-55%);opacity: 0;}
+  100%{transform: translateX(90%);opacity: 1; visibility: visible;}
+}
